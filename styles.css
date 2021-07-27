@@ -1,0 +1,49 @@
+.post{
+    height: 600px;
+    width: 400px;
+    background: white;
+    margin: 4% auto;
+}
+body{
+    background: black;
+}
+.head{
+    margin: 0;
+    border: 1px solid black;
+    height: 13%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.head .title{
+    width: 50%;
+    height: 100%;
+    border: 1px solid greenyellow;
+    display: flex;
+
+}
+.head .title .logo{
+    padding: 15px;
+    width: 20%;
+}
+.head .title .logo i{
+    width: 100px;
+    
+}
+.head .title .titulo{
+    width: 80%;
+
+}
+.head .title .titulo h1{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    
+}
+.head .title .titulo h2{
+    font-size: 1rem;
+    margin-top: 0;
+    
+}
+.head .option{
+    padding: 15px;
+}
