@@ -14,7 +14,6 @@ body{
 }
 .head{
     margin: 0;
-    border: 1px solid black;
     height: 13%;
     width: 100%;
     display: flex;
@@ -23,7 +22,7 @@ body{
 .head .title{
     width: 50%;
     height: 100%;
-    border: 1px solid greenyellow;
+    
     display: flex;
 
 }
@@ -53,13 +52,22 @@ body{
     padding: 15px;
 }
 .post .footer{
-    border: 1px solid black;
+   
     width: 100%;
     height: 5%;
 }
-.post .footer-options{
-    border: 1px solid black;
-    width: 50%;
+.footer-options{
+    
+    width: 100%;
     height: 100%;
     display: flex;
+}
+i{
+    padding: 3px;
+}
+.marcador{
+    margin-left: 60%;
+}
+.footer-text{
+    padding: 0 10px;
 }
